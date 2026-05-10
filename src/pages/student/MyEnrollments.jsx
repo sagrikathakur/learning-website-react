@@ -12,7 +12,7 @@ const { enrolledCourses , navigate } = useContext(AppContext);
 
 
 
-const[progressArray,setProgressArray] = useState([
+const [progressArray] = useState([
   {lectureCompleted: 2, totalLectures: 4},
  {lectureCompleted: 1, totalLectures: 5},
   {lectureCompleted: 3, totalLectures: 6},
@@ -75,7 +75,7 @@ const[progressArray,setProgressArray] = useState([
               </td>
               <td className='px-4 py-3 max-sm:text-right'>
                 <button className='px-3 sm:px-5 py-1.5 sm:1.5 sm:py-2 bg-blue-600 max-sm:text-xs text-white'
-                onClick={()=>navigate('/player/' +course._Id)}>
+                onClick={()=>navigate('/player/' +course._id)}>
             {progressArray[index] && progressArray[index].lectureCompleted / progressArray[index].totalLectures ===1 ? "Completed" : "On Going"}</button>
               </td>
             </tr>
