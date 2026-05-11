@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AppContext } from '../../context/AppContext';
-import Footer from '../../Components/student/Footer';
+import Footer from '../../components/student/Footer';
 
 
 import {Line} from 'rc-progress'

@@ -5,14 +5,14 @@ import CoursesList from './pages/student/CoursesList'
 import CourseDetails from './pages/student/CourseDetails'
 import MyEnrollments from './pages/student/MyEnrollments'
 import Player from './pages/student/Player'
-import Loading from './Components/student/Loading'
+import Loading from './components/student/Loading'
 
 import Educator from './pages/educator/Educator'
 import Dashboard from './pages/educator/Dashboard'
 import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
 import StudentsEnrolled from './pages/educator/StudentsEnrolled'
-import Navbar from './Components/student/Navbar'
+import Navbar from './components/student/Navbar'
 
 
 
